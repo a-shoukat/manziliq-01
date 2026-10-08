@@ -154,5 +154,3 @@ simulation mode, notifications stay in-app, and the estimator uses the built-in 
 - Auth is demo role-based; production should enforce Supabase Auth + RLS policies on every table.
 - File uploads use local `/uploads`; production should use Supabase Storage or Cloudinary.
 - The bundled dataset covers Narowal societies; retrain the ML model (`ml_service/retrain_model.py`) as real transaction data grows.
-#   m a n z i l i q - 0 1  
- 
